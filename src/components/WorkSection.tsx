@@ -76,23 +76,31 @@ const WorkSection = () => {
             {projects.map((project: any, i) => {
               const isActive = project.status === "active";
               const hasImage = project.image;
+              // Construct URL from client field (add https:// if not present)
+              const projectUrl = project.url || (project.client ? `https://${project.client}` : null);
+              
+              // If active and has URL, wrap in link, otherwise use div
+              const CardWrapper = isActive && projectUrl ? 'a' : 'div';
+              const wrapperProps = isActive && projectUrl ? {
+                href: projectUrl,
+                target: "_blank",
+                rel: "noopener noreferrer"
+              } : {};
               
               return (
-                <div
+                <CardWrapper
                   key={i}
-                  className={`premium-card overflow-hidden transition-all duration-300 ${
+                  {...wrapperProps}
+                  className={`premium-card overflow-hidden transition-all duration-300 block ${
                     isActive
                       ? "hover:border-primary/30 cursor-pointer group"
                       : "opacity-75 cursor-not-allowed"
                   }`}
                   onClick={(e) => {
-                    if (!isActive) {
+                    if (!isActive || !projectUrl) {
                       e.preventDefault();
                       return;
                     }
-                    // Handle "See More" functionality for active projects
-                    // You can add navigation or modal here
-                    console.log("View project:", project.title);
                   }}
                 >
                   {/* Project Image */}
@@ -159,14 +167,14 @@ const WorkSection = () => {
                         <span className="text-muted-foreground">{t("work.result")}: </span>
                         <span className="font-semibold text-foreground">{project.results}</span>
                       </p>
-                      {isActive && (
-                        <button className="mt-4 text-sm font-medium text-primary hover:underline">
-                          See More →
-                        </button>
+                      {isActive && projectUrl && (
+                        <p className="mt-4 text-sm font-medium text-primary">
+                          Visit Site →
+                        </p>
                       )}
                     </div>
                   </div>
-                </div>
+                </CardWrapper>
               );
             })}
           </div>
