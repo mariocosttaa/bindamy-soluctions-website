@@ -70,7 +70,6 @@ A modern, responsive landing page for Bindamy Solutions, showcasing services, po
 - 🎨 **PostCSS** `^8.5.6` - CSS processing
 - 🔄 **Autoprefixer** `^10.4.21` - CSS vendor prefixing
 - ⚡ **@vitejs/plugin-react-swc** `^3.11.0` - Fast React refresh with SWC
-- 🏷️ **lovable-tagger** `^1.1.11` - Component tagging for development
 
 ## ✨ Features
 

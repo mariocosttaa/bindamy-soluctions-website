@@ -1,12 +1,20 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useTheme } from "next-themes";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const { theme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,7 +45,7 @@ const Navbar = () => {
             {/* Logo */}
             <a href="#" className="flex items-center">
               <img 
-                src="/bindamy-logo.svg" 
+                src={mounted && theme === "dark" ? "/bindamy-dark-logo.svg" : "/bindamy-logo.svg"}
                 alt="Bindamy" 
                 className="h-25 w-auto"
               />
@@ -52,8 +60,9 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Language Switcher & CTA */}
+            {/* Theme Toggle, Language Switcher & CTA */}
             <div className="hidden md:flex items-center gap-4">
+              <ThemeToggle />
               <LanguageSwitcher />
               <a href="#contact" className="btn-primary text-sm">
                 {t("nav.getInTouch")}
@@ -88,7 +97,10 @@ const Navbar = () => {
                 </a>
               ))}
               <div className="mt-4 space-y-4">
-                <LanguageSwitcher />
+                <div className="flex items-center gap-4">
+                  <ThemeToggle />
+                  <LanguageSwitcher />
+                </div>
                 <a
                   href="#contact"
                   className="btn-primary text-center block"
