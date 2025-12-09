@@ -1,0 +1,25 @@
+[{
+        "name": "OpenAI",
+        "image": "/partners/openai.png"
+    },
+    {
+        "name": "Google Gemini",
+        "image": "/partners/gemini.png"
+    },
+    {
+        "name": "Stripe",
+        "image": "/partners/stripe.png"
+    },
+    {
+        "name": "Supabase",
+        "image": "/partners/supabase.png"
+    },
+    {
+        "name": "n8n",
+        "image": "/partners/n8n.png"
+    },
+    {
+        "name": "Hostinger",
+        "image": "/partners/hostinger.png"
+    }
+]
