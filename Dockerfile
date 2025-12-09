@@ -21,23 +21,19 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
+# Install serve for static file serving
+RUN npm install -g serve@latest
+
 # Copy built files from builder
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/start.js ./
-COPY --from=builder /app/vite.config.ts ./
-
-# Install vite globally for preview server
-RUN npm install -g vite@latest
 
 # Expose port (default 3000, can be overridden with PORT env var)
 EXPOSE 3000
 
 # Set default environment variables
 ENV PORT=3000
-ENV HOST=0.0.0.0
 ENV NODE_ENV=production
 
 # Start the server
-CMD ["node", "start.js"]
+CMD ["sh", "-c", "serve -s dist -l ${PORT:-3000}"]
 

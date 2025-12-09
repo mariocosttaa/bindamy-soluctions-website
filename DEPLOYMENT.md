@@ -1,8 +1,31 @@
 # Docker Deployment Guide
 
-This project is configured for deployment using Docker.
+This project is configured for deployment using Docker and Docker Compose.
 
-## Quick Start
+## Quick Start with Docker Compose
+
+### Start the service:
+```bash
+docker-compose up -d
+```
+
+### Stop the service:
+```bash
+docker-compose down
+```
+
+### View logs:
+```bash
+docker-compose logs -f web
+```
+
+### Rebuild after changes:
+```bash
+docker-compose build
+docker-compose up -d
+```
+
+## Manual Docker Commands
 
 ### Build the Docker image:
 ```bash
@@ -22,7 +45,7 @@ docker run -d -p 8080:8080 -e PORT=8080 --name bindamy-website bindamy-website:l
 ## Coolify Deployment
 
 1. **Connect your Git repository** to Coolify
-2. **Select Docker** as the build method
+2. **Select Docker** as the build method (or use docker-compose.yml)
 3. **Set the port** to `3000` (or use PORT environment variable)
 4. **Deploy!**
 
@@ -34,35 +57,34 @@ Coolify will automatically:
 ## Environment Variables
 
 - `PORT` - Server port (defaults to 3000)
-- `HOST` - Server host (defaults to 0.0.0.0)
 - `NODE_ENV` - Set to `production` by default
 
 ## Dockerfile Structure
 
 - **Build stage**: Installs dependencies and builds the static site
-- **Production stage**: Serves the built files using Vite preview server
-- **Multi-stage build**: Keeps the final image small
+- **Production stage**: Serves the built files using `serve` (simple static file server)
+- **Multi-stage build**: Keeps the final image small (~150MB)
 
 ## Testing Locally
 
 ```bash
-# Build
-docker build -t bindamy-website:test .
-
-# Run
-docker run -d -p 3000:3000 --name bindamy-test bindamy-website:test
-
-# Test
+# Using Docker Compose (recommended)
+docker-compose up -d
 curl http://localhost:3000
+docker-compose down
 
-# Stop and remove
+# Or using Docker directly
+docker build -t bindamy-website:test .
+docker run -d -p 3000:3000 --name bindamy-test bindamy-website:test
+curl http://localhost:3000
 docker stop bindamy-test && docker rm bindamy-test
 ```
 
 ## Notes
 
 - The build output is in the `dist/` folder
-- The start script automatically uses the PORT environment variable
-- The image uses Node.js 20 Alpine for a smaller footprint
+- Uses `serve` package for simple, reliable static file serving
+- The image uses Node.js 20 Alpine for a smaller footprint (~150MB)
 - All dependencies are installed with `legacy-peer-deps` to handle React 19 compatibility
+- No configuration files needed in production - just serves static files
 
