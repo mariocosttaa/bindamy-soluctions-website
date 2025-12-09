@@ -1,0 +1,21 @@
+[{
+        "number": "01",
+        "title": "Desenvolvimento Web",
+        "description": "Sites e aplicações web personalizados construídos com tecnologias de ponta. De sites de marketing a plataformas complexas."
+    },
+    {
+        "number": "02",
+        "title": "Arquitetura de Sistemas",
+        "description": "Soluções de software de nível empresarial projetadas para otimizar operações, integrar sistemas e escalar com seu crescimento."
+    },
+    {
+        "number": "03",
+        "title": "Automação",
+        "description": "Automação inteligente de fluxos de trabalho que elimina tarefas repetitivas, reduz erros e acelera seus processos de negócio."
+    },
+    {
+        "number": "04",
+        "title": "Estratégia Digital",
+        "description": "Consultoria abrangente em transformação digital para alinhar investimentos em tecnologia com seus objetivos de negócio."
+    }
+]
