@@ -1,0 +1,49 @@
+[{
+        "title": "Deyhair",
+        "client": "deyhair.com",
+        "description": "Plataforma de e-commerce construída com WooCommerce no WordPress. Loja online completa com gestão de produtos, carrinho de compras e processamento de pagamentos.",
+        "results": "Plataforma de e-commerce ativa",
+        "status": "active",
+        "image": "/projects/deyhair.com.png"
+    },
+    {
+        "title": "LexyHands",
+        "client": "lexyhands.pt",
+        "description": "Website e blog com loja online integrada. Sistema de gestão de conteúdo com funcionalidades de blog e capacidades de e-commerce.",
+        "results": "Website e blog com loja",
+        "status": "inactive",
+        "image": "/projects/lexyhands.jpg"
+    },
+    {
+        "title": "Horariux",
+        "client": "horariux.com",
+        "description": "Sistema empresarial de agendamento e gestão para empresas. Solução abrangente para gestão de tempo, agendamentos e operações empresariais.",
+        "results": "Solução de sistema empresarial",
+        "status": "active",
+        "image": "/projects/horariux.com.png"
+    },
+    {
+        "title": "Bindamy Mareas",
+        "client": "mareas.bindamy.site",
+        "description": "Sistema de gestão empresarial para empresas. Plataforma avançada com capacidades de análise, relatórios e business intelligence.",
+        "results": "Solução de sistema empresarial",
+        "status": "active",
+        "image": "/projects/mareas.bindamy.site.png"
+    },
+    {
+        "title": "Hotelorin",
+        "client": "hotelorin.com",
+        "description": "Sistema de gestão hoteleira com motor de reservas, serviços de hóspedes e ferramentas de otimização de receitas.",
+        "results": "Em breve",
+        "status": "inactive",
+        "image": "/projects/hotelorin.jpg"
+    },
+    {
+        "title": "PalancaPlay",
+        "client": "palancaplay.com",
+        "description": "Sistema de reserva de campos desportivos multi-plataforma. Website com aplicações móveis nativas para Android e iOS. Solução completa para reserva de campos desportivos e gestão de reservas.",
+        "results": "Sistema de reserva multi-plataforma",
+        "status": "inactive",
+        "image": "/projects/palancaplay.jpg"
+    }
+]
