@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "services": "Serviços",
+        "work": "Trabalhos",
+        "about": "Sobre",
+        "contact": "Contato",
+        "getInTouch": "Entre em Contato"
+    },
+    "hero": {
+        "overline": "Empresa de Soluções Digitais",
+        "title": "Criamos experiências",
+        "titleHighlight": "digitais",
+        "titleEnd": "que impulsionam negócios.",
+        "description": "Sites, aplicações e sistemas de automação de nível empresarial. Fazemos parceria com empresas ambiciosas para construir tecnologia que escala.",
+        "startProject": "Iniciar Projeto",
+        "viewWork": "Ver Nossos Trabalhos",
+        "stats": {
+            "projects": "Projetos Entregues",
+            "satisfaction": "Satisfação do Cliente",
+            "clients": "Clientes Empresariais",
+            "years": "Anos de Excelência"
+        }
+    },
+    "partners": {
+        "title": "Nossos Parceiros, Ferramentas e Tecnologias"
+    },
+    "services": {
+        "overline": "O Que Fazemos",
+        "title": "Soluções digitais completas para empresas modernas.",
+        "description": "Combinamos pensamento estratégico com excelência técnica para entregar soluções que transformam a forma como as empresas operam e crescem.",
+        "webDev": {
+            "title": "Desenvolvimento Web",
+            "description": "Sites e aplicações web personalizados construídos com tecnologias de ponta. De sites de marketing a plataformas complexas."
+        },
+        "architecture": {
+            "title": "Arquitetura de Sistemas",
+            "description": "Soluções de software de nível empresarial projetadas para otimizar operações, integrar sistemas e escalar com seu crescimento."
+        },
+        "automation": {
+            "title": "Automação",
+            "description": "Automação inteligente de fluxos de trabalho que elimina tarefas repetitivas, reduz erros e acelera seus processos de negócio."
+        },
+        "strategy": {
+            "title": "Estratégia Digital",
+            "description": "Consultoria abrangente em transformação digital para alinhar investimentos em tecnologia com seus objetivos de negócio."
+        }
+    },
+    "work": {
+        "overline": "Nossos Trabalhos",
+        "title": "Projetos que transformam negócios.",
+        "description": "Aproveitamos tecnologias de ponta para entregar soluções que geram resultados reais para nossos clientes.",
+        "technologiesTitle": "Tecnologias Que Utilizamos",
+        "projectsTitle": "Projetos Recentes",
+        "result": "Resultado"
+    },
+    "about": {
+        "overline": "Sobre a Bindamy",
+        "title": "Construindo o futuro dos negócios digitais.",
+        "description1": "Fundada no princípio de que a tecnologia deve capacitar empresas, a Bindamy Solutions cresceu e se tornou uma parceira confiável para empresas que buscam transformação digital.",
+        "description2": "Nossa equipe de engenheiros, designers e estrategistas traz décadas de experiência combinada de empresas líderes em tecnologia. Não apenas construímos software—arquitetamos soluções que escalam.",
+        "description3": "Cada projeto começa com a compreensão de seus objetivos de negócio e termina com impacto mensurável. Esse é o nosso compromisso.",
+        "values": {
+            "excellence": {
+                "title": "Excelência na Execução",
+                "description": "Nos mantemos nos mais altos padrões, entregando trabalho que supera expectativas."
+            },
+            "partnership": {
+                "title": "Mentalidade de Parceria",
+                "description": "Seu sucesso é o nosso sucesso. Investimos profundamente em entender seu negócio."
+            },
+            "innovation": {
+                "title": "Inovação em Primeiro Lugar",
+                "description": "Ficamos à frente das tendências tecnológicas para trazer soluções à prova de futuro."
+            },
+            "transparency": {
+                "title": "Processo Transparente",
+                "description": "Comunicação clara, prazos honestos e sem surpresas. Sempre."
+            }
+        }
+    },
+    "contact": {
+        "overline": "Entre em Contato",
+        "title": "Vamos construir algo extraordinário juntos.",
+        "description": "Se você tem um projeto em mente ou apenas quer explorar possibilidades, adoraríamos ouvir de você.",
+        "email": "E-mail",
+        "whatsapp": "WhatsApp",
+        "location": "Localização",
+        "locationValue": "Global • Remoto Primeiro",
+        "form": {
+            "name": "Nome",
+            "namePlaceholder": "João Silva",
+            "email": "E-mail",
+            "emailPlaceholder": "joao@empresa.com",
+            "company": "Empresa",
+            "companyPlaceholder": "Sua Empresa",
+            "message": "Conte-nos sobre seu projeto",
+            "messagePlaceholder": "Estou procurando...",
+            "submit": "Continuar para E-mail",
+            "successTitle": "Abrindo cliente de e-mail",
+            "successDescription": "Seu cliente de e-mail padrão será aberto com uma mensagem pré-preenchida."
+        }
+    },
+    "footer": {
+        "tagline": "Construindo sistemas inteligentes e soluções digitais que transformam a forma como as empresas operam. Da automação à integração de IA, entregamos excelência.",
+        "company": "Empresa",
+        "legal": "Legal",
+        "copyright": "© 2024 Bindamy Solutions. Todos os direitos reservados.",
+        "builtWith": "Construído com precisão em mente."
+    }
+}
