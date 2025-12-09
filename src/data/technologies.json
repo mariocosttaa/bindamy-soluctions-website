@@ -1,0 +1,31 @@
+[{
+        "name": "AI Solutions",
+        "icon": "Brain",
+        "description": "Intelligent Systems"
+    },
+    {
+        "name": "Workflow Automation",
+        "icon": "Workflow",
+        "description": "Process Optimization"
+    },
+    {
+        "name": "Analytics & Insights",
+        "icon": "BarChart3",
+        "description": "Data-Driven Decisions"
+    },
+    {
+        "name": "E-Commerce Platforms",
+        "icon": "ShoppingCart",
+        "description": "Online Commerce"
+    },
+    {
+        "name": "System Integration",
+        "icon": "Plug",
+        "description": "Seamless Connectivity"
+    },
+    {
+        "name": "Cloud Solutions",
+        "icon": "Cloud",
+        "description": "Scalable Infrastructure"
+    }
+]

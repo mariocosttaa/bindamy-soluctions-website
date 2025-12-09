@@ -1,0 +1,21 @@
+[{
+        "number": "01",
+        "title": "Web Development",
+        "description": "Custom websites and web applications built with cutting-edge technologies. From marketing sites to complex platforms."
+    },
+    {
+        "number": "02",
+        "title": "System Architecture",
+        "description": "Enterprise-grade software solutions designed to streamline operations, integrate systems, and scale with your growth."
+    },
+    {
+        "number": "03",
+        "title": "Automation",
+        "description": "Intelligent workflow automation that eliminates repetitive tasks, reduces errors, and accelerates your business processes."
+    },
+    {
+        "number": "04",
+        "title": "Digital Strategy",
+        "description": "Comprehensive digital transformation consulting to align technology investments with your business objectives."
+    }
+]
