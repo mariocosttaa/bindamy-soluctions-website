@@ -2,6 +2,15 @@
 
 A modern, responsive landing page for Bindamy Solutions, showcasing services, portfolio, and company information. Built with cutting-edge web technologies and best practices.
 
+## 🔗 Links
+
+- 🌐 **Live Preview**: [https://bindamy.site](https://bindamy.site)
+- 📦 **GitHub Repository**: [View on GitHub](https://github.com/bindamy/bindamy-soluctions-website)
+
+## 📸 Preview
+
+![Bindamy Solutions Landing Page Preview](./presentation.gif)
+
 ## 🛠️ Tech Stack Badges
 
 ![React](https://img.shields.io/badge/React-19.2.1-61DAFB?logo=react&logoColor=white)
