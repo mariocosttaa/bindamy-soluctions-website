@@ -25,6 +25,7 @@ WORKDIR /app
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/package*.json ./
 COPY --from=builder /app/start.js ./
+COPY --from=builder /app/vite.config.ts ./
 
 # Install vite globally for preview server
 RUN npm install -g vite@latest
