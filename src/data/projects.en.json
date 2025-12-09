@@ -1,0 +1,49 @@
+[{
+        "title": "Deyhair",
+        "client": "deyhair.com",
+        "description": "E-commerce platform built with WooCommerce on WordPress. Complete online store with product management, shopping cart, and payment processing.",
+        "results": "Active e-commerce platform",
+        "status": "active",
+        "image": "/projects/deyhair.com.png"
+    },
+    {
+        "title": "LexyHands",
+        "client": "lexyhands.pt",
+        "description": "Website and blog with integrated online store. Content management system with blog functionality and e-commerce capabilities.",
+        "results": "Website and blog with store",
+        "status": "inactive",
+        "image": "/projects/lexyhands.jpg"
+    },
+    {
+        "title": "Horariux",
+        "client": "horariux.com",
+        "description": "Enterprise scheduling and management system for companies. Comprehensive solution for time management, appointments, and business operations.",
+        "results": "Enterprise system solution",
+        "status": "active",
+        "image": "/projects/horariux.com.png"
+    },
+    {
+        "title": "Bindamy Mareas",
+        "client": "mareas.bindamy.site",
+        "description": "Enterprise management system for companies. Advanced platform with analytics, reporting, and business intelligence capabilities.",
+        "results": "Enterprise system solution",
+        "status": "active",
+        "image": "/projects/mareas.bindamy.site.png"
+    },
+    {
+        "title": "Hotelorin",
+        "client": "hotelorin.com",
+        "description": "Hotel management system with booking engine, guest services, and revenue optimization tools.",
+        "results": "Coming soon",
+        "status": "inactive",
+        "image": "/projects/hotelorin.jpg"
+    },
+    {
+        "title": "PalancaPlay",
+        "client": "palancaplay.com",
+        "description": "Multi-platform sports court booking system. Website with native Android and iOS mobile applications. Complete solution for booking sports courts and managing reservations.",
+        "results": "Multi-platform booking system",
+        "status": "inactive",
+        "image": "/projects/palancaplay.jpg"
+    }
+]
