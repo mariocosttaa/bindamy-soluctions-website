@@ -1,0 +1,31 @@
+[{
+        "name": "Soluções de IA",
+        "icon": "Brain",
+        "description": "Sistemas Inteligentes"
+    },
+    {
+        "name": "Automação de Fluxos",
+        "icon": "Workflow",
+        "description": "Otimização de Processos"
+    },
+    {
+        "name": "Análise e Insights",
+        "icon": "BarChart3",
+        "description": "Decisões Baseadas em Dados"
+    },
+    {
+        "name": "Plataformas E-Commerce",
+        "icon": "ShoppingCart",
+        "description": "Comércio Online"
+    },
+    {
+        "name": "Integração de Sistemas",
+        "icon": "Plug",
+        "description": "Conectividade Perfeita"
+    },
+    {
+        "name": "Soluções Cloud",
+        "icon": "Cloud",
+        "description": "Infraestrutura Escalável"
+    }
+]
